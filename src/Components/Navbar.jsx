@@ -24,7 +24,7 @@ const Navbar = () => {
           {
            visible &&
             <div className='flex flex-col gap-10 flex-1 lg:items-center'>
-                <h4  className='font-SubHeading text-lg'>Courses</h4>
+                <Link  className='font-SubHeading text-lg' to={'/courses'}>Courses</Link>
                 <h4  className='font-SubHeading text-lg'>Contact Us</h4>
                 <h4  className='font-SubHeading text-lg'>Wish List</h4>
                 <h4  className='font-SubHeading text-lg'>Cart</h4>
